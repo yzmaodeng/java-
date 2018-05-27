@@ -1,4 +1,4 @@
-package com.zl.Datastructure;
+package com.zl.Datastructure.linklist;
 
 public class OrderLinkedList {
 	private Node head;

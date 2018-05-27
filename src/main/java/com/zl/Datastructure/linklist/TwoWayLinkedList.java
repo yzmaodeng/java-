@@ -1,4 +1,4 @@
-package com.zl.Datastructure;
+package com.zl.Datastructure.linklist;
 
 public class TwoWayLinkedList {
 	private Node head;// 表示链表头
