@@ -69,19 +69,16 @@ public class MyArrayStack {
 	 * @return
 	 */
 	public boolean isGrow(int minCapacity) {
-		int oldCapacity = size;
 		// 如果当前元素压入栈之后总容量大于前面定义的容量，则需要扩容
-		if (minCapacity >= oldCapacity) {
+		if (minCapacity >= size) {
 			// 定义扩大之后栈的总容量
 			int newCapacity = 0;
 			// 栈容量扩大两倍(左移一位)看是否超过int类型所表示的最大范围
-			if ((oldCapacity << 1) - Integer.MAX_VALUE > 0) {
-				newCapacity = Integer.MAX_VALUE;
+			if ((size << 1) - Integer.MAX_VALUE > 0) {
+				size= Integer.MAX_VALUE;
 			} else {
-				newCapacity = (oldCapacity << 1);// 左移一位，相当于*2
+				size = (size << 1);// 左移一位，相当于*2
 			}
-			this.size = newCapacity;
-			int[] newArray = new int[size];
 			elementData = Arrays.copyOf(elementData, size);
 			return true;
 		} else {
