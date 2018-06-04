@@ -13,3 +13,4 @@ java  面试   基础知识要点  se
 [type TypeVariable](https://github.com/yzmaodeng/java-keypointknowledge/blob/master/src/main/java/com/zl/Type/MyTypeVariable.java)| 泛型变量|[CSDN](https://blog.csdn.net/yz18931904/article/details/80532427)
 [type ](https://github.com/yzmaodeng/java-keypointknowledge/blob/master/src/main/java/com/zl/Type/MyTypeVariable.java)| 泛型总结|[CSDN](https://blog.csdn.net/yz18931904/article/details/80532437)
 [type demo ](https://github.com/yzmaodeng/java-keypointknowledge/tree/master/src/main/java/com/zl/Type/Demo)| 泛型实战|[CSDN](https://blog.csdn.net/yz18931904/article/details/80535724)
+[Design pattern singleton ](https://github.com/yzmaodeng/java-keypointknowledge/commit/0894a14b03b724cd362f466e8f20514efbc164aa)| 单例设计模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80556497)
