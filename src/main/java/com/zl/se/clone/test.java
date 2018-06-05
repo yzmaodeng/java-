@@ -99,16 +99,42 @@ public class test {
 		
 		//序列化的方式来clone对象
 		
-		DeepProfessor deepProfessor = new DeepProfessor();
-		deepProfessor.setAge(10);
-		deepProfessor.setName("xiaohong");
-		DeepProfessor clone = SerializableClone.clone(deepProfessor);
+//		DeepProfessor deepProfessor = new DeepProfessor();
+//		deepProfessor.setAge(10);
+//		deepProfessor.setName("xiaohong");
+//		DeepProfessor clone = SerializableClone.clone(deepProfessor);
+//		clone.setName("xiaoming");
+//		System.out.println(deepProfessor);
+//		System.out.println(clone);
+//		System.out.println(clone==deepProfessor);
 		
-		System.out.println(deepProfessor);
-		System.out.println(clone);
-		System.out.println(clone==deepProfessor);
-		
-		
+		DeepProfessor p1 = new DeepProfessor();
+		p1.setName("Professor Zhang");
+		p1.setAge(30);
+
+		DeepStudent s1 = new DeepStudent();
+		s1.setName("xiao ming");
+		s1.setAge(18);
+		s1.setProfessor(p1);
+
+		System.out.println(s1);
+
+		try {
+			DeepStudent s2 = SerializableClone.clone(s1);
+//			DeepStudent s2 = (DeepStudent) s1.clone();
+			//System.out.println(s1==s2);//clone的对象的内存的地址是不相同的
+			DeepProfessor p2 = s2.getProfessor();
+			 s2.setName("xiao hong");
+			 s2.setAge(17);
+			p2.setName("Professor Li");
+			p2.setAge(45);
+			s2.setProfessor(p2);
+			System.out.println("复制后的：s1 = " + s1);
+			System.out.println("复制后的：s2 = " + s2);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 		

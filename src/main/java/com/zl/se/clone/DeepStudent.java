@@ -1,6 +1,8 @@
 package com.zl.se.clone;
 
-public class DeepStudent  implements Cloneable{
+import java.io.Serializable;
+
+public class DeepStudent  implements Cloneable,Serializable{
 private String name;
     
     private int age;
