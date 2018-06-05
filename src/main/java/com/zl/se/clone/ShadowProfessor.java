@@ -1,4 +1,4 @@
-package com.zl.se;
+package com.zl.se.clone;
 
 public class ShadowProfessor {
 	

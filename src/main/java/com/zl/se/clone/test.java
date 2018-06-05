@@ -1,4 +1,4 @@
-package com.zl.se;
+package com.zl.se.clone;
 
 public class test {
 
@@ -79,6 +79,7 @@ public class test {
 //
 //		try {
 //			DeepStudent s2 = (DeepStudent) s1.clone();
+//			//System.out.println(s1==s2);//clone的对象的内存的地址是不相同的
 //			DeepProfessor p2 = s2.getProfessor();
 //			 s2.setName("xiao hong");
 //			 s2.setAge(17);
@@ -95,6 +96,17 @@ public class test {
 //Student [name=xiao ming, age=18, professor=Professor [name=Professor Zhang, age=30]]
 //复制后的：s1 = Student [name=xiao ming, age=18, professor=Professor [name=Professor Zhang, age=30]]
 //复制后的：s2 = Student [name=xiao hong, age=17, professor=Professor [name=Professor Li, age=45]]
+		
+		//序列化的方式来clone对象
+		
+		DeepProfessor deepProfessor = new DeepProfessor();
+		deepProfessor.setAge(10);
+		deepProfessor.setName("xiaohong");
+		DeepProfessor clone = SerializableClone.clone(deepProfessor);
+		
+		System.out.println(deepProfessor);
+		System.out.println(clone);
+		System.out.println(clone==deepProfessor);
 		
 		
 		
