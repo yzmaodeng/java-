@@ -20,3 +20,4 @@ java  面试   基础知识要点  se
 [Design pattern Template ](https://github.com/yzmaodeng/java-keypointknowledge/commit/5ca13d42fd63932490339a575749aec377d6e642)| 模板设计模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80571768)
 [Design pattern Prototype clone  ](https://github.com/yzmaodeng/java-keypointknowledge/commit/45e9136a51912dfd62b9d89ff95cc470ef132abe)| 原型设计模式clone|[CSDN](https://blog.csdn.net/yz18931904/article/details/80576574)
 [SerializableClone  ](https://github.com/yzmaodeng/java-keypointknowledge/commit/7d6c6824fcee4ebbdedbdbb7938533e50729ff39#diff-4c42fcae049b728ca8c83d3a5767b44f)| 原型设计模式深度克隆序列化clone|[CSDN](https://blog.csdn.net/yz18931904/article/details/80577589)
+[Design pattern Prototype manager ](https://github.com/yzmaodeng/java-keypointknowledge/commit/4e35b9808bcc4e7207c6d1a6cd1e4295e4328ab5)| 原型设计模式实战|[CSDN](https://blog.csdn.net/yz18931904/article/details/80588209)
