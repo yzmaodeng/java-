@@ -21,4 +21,5 @@ java  面试   基础知识要点  se
 [Design pattern Prototype clone  ](https://github.com/yzmaodeng/java-keypointknowledge/commit/45e9136a51912dfd62b9d89ff95cc470ef132abe)| 原型设计模式clone|[CSDN](https://blog.csdn.net/yz18931904/article/details/80576574)
 [SerializableClone  ](https://github.com/yzmaodeng/java-keypointknowledge/commit/7d6c6824fcee4ebbdedbdbb7938533e50729ff39#diff-4c42fcae049b728ca8c83d3a5767b44f)| 原型设计模式深度克隆序列化clone|[CSDN](https://blog.csdn.net/yz18931904/article/details/80577589)
 [Design pattern Prototype manager ](https://github.com/yzmaodeng/java-keypointknowledge/commit/4e35b9808bcc4e7207c6d1a6cd1e4295e4328ab5)| 原型设计模式实战|[CSDN](https://blog.csdn.net/yz18931904/article/details/80588209)
-[Design pattern Mediator ](https://github.com/yzmaodeng/java-keypointknowledge/commit/bf15dc2c7c49df34dbef0a550ace857dd38669aa)| 原型设计中介者模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80589280)
+[Design pattern Mediator ](https://github.com/yzmaodeng/java-keypointknowledge/commit/bf15dc2c7c49df34dbef0a550ace857dd38669aa)| 设计中介者模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80589280)
+[Design pattern Visitor ](https://github.com/yzmaodeng/java-keypointknowledge/commit/4745c8012aebd0022ea779fcef25ce2bc10be1b6)| 访问者者模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80595013)
