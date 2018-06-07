@@ -23,3 +23,4 @@ java  面试   基础知识要点  se
 [Design pattern Prototype manager ](https://github.com/yzmaodeng/java-keypointknowledge/commit/4e35b9808bcc4e7207c6d1a6cd1e4295e4328ab5)| 原型设计模式实战|[CSDN](https://blog.csdn.net/yz18931904/article/details/80588209)
 [Design pattern Mediator ](https://github.com/yzmaodeng/java-keypointknowledge/commit/bf15dc2c7c49df34dbef0a550ace857dd38669aa)| 设计中介者模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80589280)
 [Design pattern Visitor ](https://github.com/yzmaodeng/java-keypointknowledge/commit/4745c8012aebd0022ea779fcef25ce2bc10be1b6)| 访问者者模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80595013)
+[Design pattern Command ](https://github.com/yzmaodeng/java-keypointknowledge/commit/5fe46382cb694b7d493cb09796192c2b27bc5c5d)| 命令模式|[CSDN](https://github.com/yzmaodeng/java-keypointknowledge/commit/5fe46382cb694b7d493cb09796192c2b27bc5c5d)
