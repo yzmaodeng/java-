@@ -25,3 +25,4 @@ java  面试   基础知识要点  se
 [Design pattern Visitor ](https://github.com/yzmaodeng/java-keypointknowledge/commit/4745c8012aebd0022ea779fcef25ce2bc10be1b6)| 访问者者模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80595013)
 [Design pattern Command ](https://github.com/yzmaodeng/java-keypointknowledge/commit/5fe46382cb694b7d493cb09796192c2b27bc5c5d)| 命令模式|[CSDN](https://github.com/yzmaodeng/java-keypointknowledge/commit/5fe46382cb694b7d493cb09796192c2b27bc5c5d)
 [Design pattern Command ](https://github.com/yzmaodeng/java-keypointknowledge/commit/098e2fc49310d5cb09cd8c97d9be1702c85826e7)| 策略模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80610138)
+[Design pattern Iterator ]https://github.com/yzmaodeng/java-keypointknowledge/commit/92cffe84f620f4a82cb001811a90fe15ef165e86)| 迭代器模式|[CSDN](https://blog.csdn.net/yz18931904/article/details/80612030)
